@@ -273,8 +273,10 @@ function cardHTML(a, idx) {
   const url = a.url || "#";
   const safeUrl = /^https?:\/\//i.test(url) ? esc(url) : "#";
 
+  const urgentCls = !closed && dd && dd.kind === "urgent" ? " is-urgent" : "";
+
   return (
-    `<article class="card ${closed ? "is-closed" : ""}" style="animation-delay:${Math.min(idx, 12) * 24}ms">` +
+    `<article class="card ${closed ? "is-closed" : ""}${urgentCls}" style="animation-delay:${Math.min(idx, 12) * 24}ms">` +
       `<div class="card__top">` +
         `<span class="badge ${srcClass}">${esc(src)}</span>` +
         newBadge + ddBadge +

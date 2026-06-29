@@ -2,10 +2,10 @@
   "updated_at": "2026-06-28 14:17:25",
   "keywords": [
     "AI",
-    "인공지능",
     "심리",
     "센서",
-    "로봇"
+    "로봇",
+    "F&B"
   ],
   "count": 13,
   "announcements": [
@@ -345,8 +345,7 @@
       "summary": "미등록",
       "support_scale": "",
       "matched_keywords": [
-        "AI",
-        "인공지능"
+        "AI"
       ],
       "reasons": [
         "연구 키워드 [AI, 인공지능] 와 직접 관련된 과제입니다.",
