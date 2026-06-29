@@ -1,0 +1,359 @@
+{
+  "updated_at": "2026-06-28 14:17:25",
+  "keywords": [
+    "AI",
+    "인공지능",
+    "심리",
+    "센서",
+    "로봇"
+  ],
+  "count": 13,
+  "announcements": [
+    {
+      "source": "IRIS",
+      "id": "IRIS-022696",
+      "title": "2026년 「인간-AI 협업형 LAM 개발·글로벌 실증 」사업 공고",
+      "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022696&ancmPrg=ancmPre",
+      "agency": "과학기술정보통신부",
+      "org": "정보통신산업진흥원",
+      "receipt_start": "2026.07.17",
+      "receipt_end": "2026.07.28",
+      "d_day": "D-30",
+      "status": "공고예고",
+      "ancm_no": "과학기술정보통신부 공고 제2026-0731호",
+      "summary": "지정공모",
+      "support_scale": "",
+      "matched_keywords": [
+        "AI"
+      ],
+      "reasons": [
+        "연구 키워드 [AI] 와 직접 관련된 과제입니다.",
+        "과학기술정보통신부 · 정보통신산업진흥원 가 주관하는 공식 정부 R&D 사업입니다.",
+        "공모유형: 지정공모.",
+        "접수 마감 2026.07.28 (D-30), 준비 기간이 충분합니다.",
+        "공식 공고문/제출서식 첨부 제공 (예: 붙임1. [공고문] 2026년 「인간-AI협업형 LAM개발 글로벌 실증 )."
+      ],
+      "crawled_at": "2026-06-28 14:14:37",
+      "first_seen": "2026-06-28 22:54:33"
+    },
+    {
+      "source": "IRIS",
+      "id": "IRIS-022694",
+      "title": "2026년「협업지능 피지컬AI 기반 SW플랫폼 연구개발생태계 조성」사업 공고",
+      "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022694&ancmPrg=ancmPre",
+      "agency": "과학기술정보통신부",
+      "org": "정보통신산업진흥원",
+      "receipt_start": "2026.07.17",
+      "receipt_end": "2026.07.28",
+      "d_day": "D-30",
+      "status": "공고예고",
+      "ancm_no": "과학기술정보통신부 공고 제2026-0732호",
+      "summary": "지정공모",
+      "support_scale": "",
+      "matched_keywords": [
+        "AI"
+      ],
+      "reasons": [
+        "연구 키워드 [AI] 와 직접 관련된 과제입니다.",
+        "과학기술정보통신부 · 정보통신산업진흥원 가 주관하는 공식 정부 R&D 사업입니다.",
+        "공모유형: 지정공모.",
+        "접수 마감 2026.07.28 (D-30), 준비 기간이 충분합니다.",
+        "공식 공고문/제출서식 첨부 제공 (예: 1_2026년 「협업지능 피지컬AI 기반 SW플랫폼 연구개발 생태계 조성)."
+      ],
+      "crawled_at": "2026-06-28 14:14:38",
+      "first_seen": "2026-06-28 22:54:33"
+    },
+    {
+      "source": "IRIS",
+      "id": "IRIS-022474",
+      "title": "(수정) 2026년도 제3차 조선해양산업기술개발사업(AI완전자율운항선박기술개발) 신규지원 대상과제 공고",
+      "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022474&ancmPrg=ancmIng",
+      "agency": "산업통상부",
+      "org": "한국산업기술기획평가원",
+      "receipt_start": "2026.06.15",
+      "receipt_end": "2026.07.14",
+      "d_day": "D-16",
+      "status": "공고접수중",
+      "ancm_no": "산업통상부 공고 제2026-433호",
+      "summary": "지정공모",
+      "support_scale": "",
+      "matched_keywords": [
+        "AI"
+      ],
+      "reasons": [
+        "연구 키워드 [AI] 와 직접 관련된 과제입니다.",
+        "산업통상부 · 한국산업기술기획평가원 가 주관하는 공식 정부 R&D 사업입니다.",
+        "공모유형: 지정공모.",
+        "접수 마감 2026.07.14 (D-16), 준비 기간이 충분합니다.",
+        "공식 공고문/제출서식 첨부 제공 (예: 2026년도 제3차 조선해양산업기술개발사업 신규지원 대상과제 공고문.hw)."
+      ],
+      "crawled_at": "2026-06-28 14:16:33",
+      "first_seen": "2026-06-28 22:54:33"
+    },
+    {
+      "source": "IRIS",
+      "id": "IRIS-021994",
+      "title": "2026년도 AI 완전자율운항선박 기술개발사업 신규과제 선정계획 공고",
+      "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021994&ancmPrg=ancmIng",
+      "agency": "해양수산부",
+      "org": "해양수산과학기술진흥원",
+      "receipt_start": "2026.06.15",
+      "receipt_end": "2026.07.14",
+      "d_day": "D-16",
+      "status": "공고접수중",
+      "ancm_no": "해양수산부 공고？제2026-1082호",
+      "summary": "지정공모",
+      "support_scale": "",
+      "matched_keywords": [
+        "AI"
+      ],
+      "reasons": [
+        "연구 키워드 [AI] 와 직접 관련된 과제입니다.",
+        "해양수산부 · 해양수산과학기술진흥원 가 주관하는 공식 정부 R&D 사업입니다.",
+        "공모유형: 지정공모.",
+        "접수 마감 2026.07.14 (D-16), 준비 기간이 충분합니다.",
+        "공식 공고문/제출서식 첨부 제공 (예: 2026년도 AI 완전자율운항선박 기술개발사업 신규과제 선정계획 공고.p)."
+      ],
+      "crawled_at": "2026-06-28 14:16:36",
+      "first_seen": "2026-06-28 22:54:33"
+    },
+    {
+      "source": "IRIS",
+      "id": "IRIS-022194",
+      "title": "2026년도 K-온디바이스 AI반도체 기술개발사업 신규 지원대상 연구개발과제 공고",
+      "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022194&ancmPrg=ancmIng",
+      "agency": "산업통상부",
+      "org": "한국산업기술기획평가원",
+      "receipt_start": "2026.06.18",
+      "receipt_end": "2026.07.10",
+      "d_day": "D-12",
+      "status": "공고접수중",
+      "ancm_no": "산업통상부 공고 제2026-426호",
+      "summary": "품목지정공모",
+      "support_scale": "",
+      "matched_keywords": [
+        "AI"
+      ],
+      "reasons": [
+        "연구 키워드 [AI] 와 직접 관련된 과제입니다.",
+        "산업통상부 · 한국산업기술기획평가원 가 주관하는 공식 정부 R&D 사업입니다.",
+        "공모유형: 품목지정공모.",
+        "접수 마감 2026.07.10 (D-12), 준비 기간이 충분합니다.",
+        "공식 공고문/제출서식 첨부 제공 (예: 2026년도 K-온디바이스AI반도체기술개발사업 신규 지원대상 연구개발과제)."
+      ],
+      "crawled_at": "2026-06-28 14:16:45",
+      "first_seen": "2026-06-28 22:54:33"
+    },
+    {
+      "source": "IRIS",
+      "id": "IRIS-022376",
+      "title": "2026년도 미래개척융합과학기술개발사업 신규과제 제3차 공모",
+      "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=022376&ancmPrg=ancmIng",
+      "agency": "과학기술정보통신부",
+      "org": "한국연구재단",
+      "receipt_start": "2026.06.24",
+      "receipt_end": "2026.07.10",
+      "d_day": "D-12",
+      "status": "공고접수중",
+      "ancm_no": "과학기술정보통신부 공고 제2026-0679호",
+      "summary": "품목지정공모",
+      "support_scale": "",
+      "matched_keywords": [
+        "AI",
+        "센서",
+        "로봇"
+      ],
+      "reasons": [
+        "연구 키워드 [AI, 센서, 로봇] 와 직접 관련된 과제입니다.",
+        "과학기술정보통신부 · 한국연구재단 가 주관하는 공식 정부 R&D 사업입니다.",
+        "공모유형: 품목지정공모.",
+        "접수 마감 2026.07.10 (D-12), 준비 기간이 충분합니다.",
+        "공식 공고문/제출서식 첨부 제공 (예: [본문] 2026년도 미래개척융합과학기술개발사업 신규과제 공고 추진.pd)."
+      ],
+      "crawled_at": "2026-06-28 14:16:47",
+      "first_seen": "2026-06-28 22:54:33"
+    },
+    {
+      "source": "IRIS",
+      "id": "IRIS-021754",
+      "title": "2026년도 한국형 ARPA-H 프로젝트 신규지원 대상과제 통합공고",
+      "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021754&ancmPrg=ancmIng",
+      "agency": "보건복지부",
+      "org": "한국보건산업진흥원",
+      "receipt_start": "2026.06.10",
+      "receipt_end": "2026.07.01",
+      "d_day": "D-3",
+      "status": "공고접수중",
+      "ancm_no": "보건복지부공고  제2026-451호",
+      "summary": "품목지정공모",
+      "support_scale": "",
+      "matched_keywords": [
+        "AI"
+      ],
+      "reasons": [
+        "연구 키워드 [AI] 와 직접 관련된 과제입니다.",
+        "보건복지부 · 한국보건산업진흥원 가 주관하는 공식 정부 R&D 사업입니다.",
+        "공모유형: 품목지정공모.",
+        "⏰ 마감 임박! 접수 마감까지 3일 남았습니다 (2026.07.01).",
+        "공식 공고문/제출서식 첨부 제공 (예: 1. 2026년도 한국형 ARPA-H 프로젝트 신규지원 대상과제 통합공고)."
+      ],
+      "crawled_at": "2026-06-28 14:16:57",
+      "first_seen": "2026-06-28 22:54:33"
+    },
+    {
+      "source": "IRIS",
+      "id": "IRIS-021943",
+      "title": "(수정공고)2026년도 AI최고급신진연구자지원 사업 공고",
+      "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021943&ancmPrg=ancmIng",
+      "agency": "과학기술정보통신부",
+      "org": "정보통신기획평가원",
+      "receipt_start": "2026.06.15",
+      "receipt_end": "2026.06.30",
+      "d_day": "D-2",
+      "status": "공고접수중",
+      "ancm_no": "과학기술정보통신부 공고 제2026-0647호",
+      "summary": "자유공모",
+      "support_scale": "",
+      "matched_keywords": [
+        "AI"
+      ],
+      "reasons": [
+        "연구 키워드 [AI] 와 직접 관련된 과제입니다.",
+        "과학기술정보통신부 · 정보통신기획평가원 가 주관하는 공식 정부 R&D 사업입니다.",
+        "공모유형: 자유공모.",
+        "⏰ 마감 임박! 접수 마감까지 2일 남았습니다 (2026.06.30).",
+        "공식 공고문/제출서식 첨부 제공 (예: 3. 국가연구개발혁신법 및 주요 부속 규정.zip(472.5KB))."
+      ],
+      "crawled_at": "2026-06-28 14:17:03",
+      "first_seen": "2026-06-28 22:54:33"
+    },
+    {
+      "source": "IRIS",
+      "id": "IRIS-021719",
+      "title": "2026년도 민관공동기술사업화(R&D)'구매연계(혁신형도전)' 하반기 시행계획 공고",
+      "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=021719&ancmPrg=ancmIng",
+      "agency": "중소벤처기업부",
+      "org": "중소기업기술정보진흥원",
+      "receipt_start": "2026.06.15",
+      "receipt_end": "2026.06.29",
+      "d_day": "D-1",
+      "status": "공고접수중",
+      "ancm_no": "중소벤처기업부 공고 제2026-354호",
+      "summary": "지정공모",
+      "support_scale": "",
+      "matched_keywords": [
+        "AI"
+      ],
+      "reasons": [
+        "연구 키워드 [AI] 와 직접 관련된 과제입니다.",
+        "중소벤처기업부 · 중소기업기술정보진흥원 가 주관하는 공식 정부 R&D 사업입니다.",
+        "공모유형: 지정공모.",
+        "⏰ 마감 임박! 접수 마감까지 1일 남았습니다 (2026.06.29).",
+        "공식 공고문/제출서식 첨부 제공 (예: [붙임1-1] 신청방법, 신청 및 지원 제외사항 등 기타 유의사항.hwp)."
+      ],
+      "crawled_at": "2026-06-28 14:17:11",
+      "first_seen": "2026-06-28 22:54:33"
+    },
+    {
+      "source": "NTIS",
+      "id": "NTIS-1265965",
+      "title": "2026년도 AI최고급신진연구자지원 사업 공고",
+      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1265965",
+      "agency": "과학기술정보통신부",
+      "org": "통합공고",
+      "receipt_start": "2026.06.15",
+      "receipt_end": "2026.06.29",
+      "d_day": "",
+      "status": "접수중",
+      "ancm_no": "",
+      "summary": "",
+      "support_scale": "",
+      "matched_keywords": [
+        "AI"
+      ],
+      "reasons": [
+        "연구 키워드 [AI] 와 직접 관련된 과제입니다.",
+        "과학기술정보통신부 · 통합공고 가 주관하는 공식 정부 R&D 사업입니다.",
+        "접수기간: 2026.06.15 ~ 2026.06.29."
+      ],
+      "crawled_at": "2026-06-28 14:17:25",
+      "first_seen": "2026-06-28 22:54:33"
+    },
+    {
+      "source": "NTIS",
+      "id": "NTIS-1269899",
+      "title": "2026년도 K-로봇피지컬AI생태계조성사업 신규지원 대상과제 공고",
+      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1269899",
+      "agency": "산업통상부",
+      "org": "개별공고",
+      "receipt_start": "2026.06.08",
+      "receipt_end": "2026.06.25",
+      "d_day": "",
+      "status": "마감",
+      "ancm_no": "",
+      "summary": "",
+      "support_scale": "",
+      "matched_keywords": [
+        "AI",
+        "로봇"
+      ],
+      "reasons": [
+        "연구 키워드 [AI, 로봇] 와 직접 관련된 과제입니다.",
+        "산업통상부 · 개별공고 가 주관하는 공식 정부 R&D 사업입니다.",
+        "접수기간: 2026.06.08 ~ 2026.06.25."
+      ],
+      "crawled_at": "2026-06-28 14:17:25",
+      "first_seen": "2026-06-28 22:54:33"
+    },
+    {
+      "source": "NTIS",
+      "id": "NTIS-1268335",
+      "title": "2026년도 로봇산업기술개발사업 신규지원 대상과제 공고",
+      "url": "https://www.ntis.go.kr/rndgate/eg/un/ra/view.do?roRndUid=1268335",
+      "agency": "산업통상부",
+      "org": "통합공고",
+      "receipt_start": "2026.06.08",
+      "receipt_end": "2026.06.25",
+      "d_day": "",
+      "status": "마감",
+      "ancm_no": "",
+      "summary": "",
+      "support_scale": "",
+      "matched_keywords": [
+        "로봇"
+      ],
+      "reasons": [
+        "연구 키워드 [로봇] 와 직접 관련된 과제입니다.",
+        "산업통상부 · 통합공고 가 주관하는 공식 정부 R&D 사업입니다.",
+        "접수기간: 2026.06.08 ~ 2026.06.25."
+      ],
+      "crawled_at": "2026-06-28 14:17:25",
+      "first_seen": "2026-06-28 22:54:33"
+    },
+    {
+      "source": "IRIS",
+      "id": "IRIS-014078",
+      "title": "2025년도 『인공지능 챔피언(AI Champion)』대회 공고",
+      "url": "https://www.iris.go.kr/contents/retrieveBsnsAncmView.do?ancmId=014078&ancmPrg=ancmPre",
+      "agency": "",
+      "org": "정보통신기획평가원",
+      "receipt_start": "",
+      "receipt_end": "",
+      "d_day": "",
+      "status": "미게시",
+      "ancm_no": "과학기술정보통신부 공고 제2025-0664호",
+      "summary": "미등록",
+      "support_scale": "",
+      "matched_keywords": [
+        "AI",
+        "인공지능"
+      ],
+      "reasons": [
+        "연구 키워드 [AI, 인공지능] 와 직접 관련된 과제입니다.",
+        "정보통신기획평가원 가 주관하는 공식 정부 R&D 사업입니다."
+      ],
+      "crawled_at": "2026-06-28 14:14:51",
+      "first_seen": "2026-06-28 22:54:33"
+    }
+  ]
+}

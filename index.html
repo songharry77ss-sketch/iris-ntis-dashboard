@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>IRIS · NTIS 공고 추적</title>
+  <meta name="description" content="IRIS·NTIS 정부 R&D 공고를 연구 키워드(AI·인공지능·심리·센서·로봇)로 자동 추적하는 대시보드." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600;700&family=Inter:wght@400;500;600;700;800&family=Geist+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip" href="#grid">본문으로 건너뛰기</a>
+
+  <header class="hero">
+    <div class="hero__glow" aria-hidden="true"></div>
+    <div class="wrap">
+      <div class="hero__bar">
+        <div class="brand">
+          <span class="brand__mark" aria-hidden="true">
+            <svg viewBox="0 0 24 24" width="22" height="22"><path d="M12 2 22 22H2Z" fill="currentColor"/></svg>
+          </span>
+          <span class="brand__txt">IRIS<span aria-hidden="true">·</span>NTIS</span>
+        </div>
+        <span class="hero__updated" id="updatedPill">불러오는 중…</span>
+      </div>
+
+      <h1 class="hero__title">정부 R&amp;D 공고 추적</h1>
+      <p class="hero__sub">연구실 키워드와 일치하는 공고를 IRIS·NTIS에서 자동 수집합니다. 마감이 가까운 과제부터 한눈에.</p>
+
+      <dl class="stats">
+        <div class="stat">
+          <dt class="stat__label">추적 공고</dt>
+          <dd class="stat__num" id="statTotal">—</dd>
+        </div>
+        <div class="stat">
+          <dt class="stat__label">접수중</dt>
+          <dd class="stat__num stat__num--open" id="statOpen">—</dd>
+        </div>
+        <div class="stat">
+          <dt class="stat__label">마감 임박 <span class="stat__hint">D-7 이내</span></dt>
+          <dd class="stat__num stat__num--urgent" id="statUrgent">—</dd>
+        </div>
+      </dl>
+
+      <div class="chips" id="kwChips" aria-label="추적 키워드"></div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <section class="controls" aria-label="검색 및 필터">
+      <div class="search">
+        <svg class="search__icon" viewBox="0 0 24 24" width="18" height="18" aria-hidden="true"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><line x1="16.5" y1="16.5" x2="21" y2="21" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        <input id="search" type="search" placeholder="제목 · 부처 · 전문기관 · 키워드 검색" autocomplete="off" aria-label="검색" />
+        <kbd class="search__kbd" id="searchKbd" aria-hidden="true">/</kbd>
+        <button class="search__clear" id="searchClear" type="button" aria-label="검색어 지우기" hidden>
+          <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><line x1="6" y1="6" x2="18" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/><line x1="18" y1="6" x2="6" y2="18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+        </button>
+      </div>
+
+      <div class="controls__filters">
+        <div class="seg" role="group" aria-label="출처 필터" id="srcSeg">
+          <button class="seg__btn is-active" data-src="all" aria-pressed="true">전체</button>
+          <button class="seg__btn" data-src="IRIS" aria-pressed="false">IRIS</button>
+          <button class="seg__btn" data-src="NTIS" aria-pressed="false">NTIS</button>
+        </div>
+
+        <div class="seg" role="group" aria-label="정렬" id="sortSeg">
+          <button class="seg__btn is-active" data-sort="deadline" aria-pressed="true">마감 임박순</button>
+          <button class="seg__btn" data-sort="latest" aria-pressed="false">최근 등록순</button>
+        </div>
+      </div>
+
+      <div class="kwbar" id="kwFilter" role="group" aria-label="키워드 필터 (중복 선택 가능)"></div>
+    </section>
+
+    <div class="resultbar">
+      <span class="resultbar__count" id="resultCount">—</span>
+      <button class="resultbar__reset" id="resetBtn" type="button" hidden>초기화 ✕</button>
+    </div>
+
+    <section id="grid" class="grid" aria-live="polite"></section>
+
+    <div id="empty" class="empty" hidden>
+      <div class="empty__mark" aria-hidden="true">∅</div>
+      <h2 class="empty__title">조건에 맞는 공고가 없습니다</h2>
+      <p class="empty__text">검색어를 줄이거나 필터를 초기화해 보세요.</p>
+      <button class="btn btn--ghost" type="button" id="emptyReset">필터 초기화</button>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="wrap footer__inner">
+      <div class="footer__col">
+        <p class="footer__brand">IRIS · NTIS 공고 추적</p>
+        <p class="footer__note">IRIS(범부처통합연구지원시스템) 및 NTIS(국가과학기술지식정보서비스)의 공개 공고를 자동 수집해 정리했습니다. 신청 전 반드시 <strong>원문 공고</strong>를 확인하세요.</p>
+      </div>
+      <nav class="footer__links" aria-label="출처">
+        <a href="https://www.iris.go.kr" target="_blank" rel="noopener">IRIS &nearr;</a>
+        <a href="https://www.ntis.go.kr" target="_blank" rel="noopener">NTIS &nearr;</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
