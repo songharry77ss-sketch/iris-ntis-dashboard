@@ -203,10 +203,15 @@ function filtered() {
 
 function cardHTML(a, idx) {
   const closed = a._closed;
-  const src = a.source === "NTIS" ? "NTIS" : "IRIS";
-  const srcClass = src === "NTIS" ? "badge--ntis" : "badge--iris";
+  const src =
+    a.source === "NTIS" ? "NTIS" : a.source === "NIPA" ? "NIPA" : "IRIS";
+  const srcClass =
+    src === "NTIS" ? "badge--ntis" : src === "NIPA" ? "badge--nipa" : "badge--iris";
 
-  const newBadge = a._new && !closed ? `<span class="badge badge--new">NEW</span>` : "";
+  const newBadge =
+    a._new && !closed && a.source !== "NIPA"
+      ? `<span class="badge badge--new">NEW</span>`
+      : "";
 
   const dd = ddayInfo(a);
   let ddBadge = "";

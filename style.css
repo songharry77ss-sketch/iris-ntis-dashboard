@@ -555,6 +555,11 @@ a { color: inherit; text-decoration: none; }
   color: var(--ink);
   border: 1px solid var(--gray-300);
 }
+.badge--nipa {
+  background: var(--surface);
+  color: var(--teal);
+  border: 1px solid color-mix(in srgb, var(--teal) 38%, var(--bg));
+}
 .badge--new {
   background: var(--surface);
   color: var(--blue);
