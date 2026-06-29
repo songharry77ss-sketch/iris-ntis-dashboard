@@ -206,7 +206,7 @@ function cardHTML(a, idx) {
   const src = a.source === "NTIS" ? "NTIS" : "IRIS";
   const srcClass = src === "NTIS" ? "badge--ntis" : "badge--iris";
 
-  const newBadge = a._new ? `<span class="badge badge--new">NEW</span>` : "";
+  const newBadge = a._new && !closed ? `<span class="badge badge--new">NEW</span>` : "";
 
   const dd = ddayInfo(a);
   let ddBadge = "";
