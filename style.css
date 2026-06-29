@@ -517,14 +517,6 @@ a { color: inherit; text-decoration: none; }
   transition: border-color .18s, box-shadow .18s, transform .18s var(--ease);
   animation: cardin .42s var(--ease) both;
 }
-/* 마감 임박(D-3) 카드 좌측 액센트 — JS가 .is-urgent 부여 */
-.card.is-urgent::before {
-  content: "";
-  position: absolute;
-  left: 0; top: 0; bottom: 0;
-  width: 3px;
-  background: var(--red);
-}
 .card:hover {
   border-color: var(--gray-300);
   box-shadow: var(--shadow-md);
